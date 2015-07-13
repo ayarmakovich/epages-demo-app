@@ -1,0 +1,14 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments :: head"></head>
+<body role="document">
+<nav th:replace="fragments :: nav"></nav>
+
+<div class="theme-showcase" role="main">
+    <div th:replace="fragments :: title"></div>
+</div>
+
+<div th:replace="fragments :: footer"></div>
+</body>
+</html>

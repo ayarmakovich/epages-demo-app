@@ -1,0 +1,81 @@
+buildscript {
+    ext {
+        springBootVersion = '1.2.3.RELEASE'
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+group = 'com.epages'
+version = 'DEV-SNAPSHOT'
+
+jar {
+    baseName = 'demo-app'
+    version = 'DEV-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web") {
+        exclude module: "spring-boot-starter-tomcat"
+    }
+    compile("org.springframework.boot:spring-boot-starter-jetty")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile("org.springframework.boot:spring-boot-starter-jersey")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.jolokia:jolokia-core")
+    compile("io.dropwizard.metrics:metrics-core")
+    compile("com.google.code.gson:gson")
+    compile("org.webjars:bootstrap:3.3.4")
+    compile("org.webjars:jquery:2.1.4")
+    compile("org.apache.httpcomponents:fluent-hc:4.4.1")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
+
+eclipse {
+    classpath {
+        containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
+        containers 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7'
+    }
+}
+
+wrapper { gradleVersion = "2.4" }
+
+// http://stackoverflow.com/questions/23665976/unable-to-publish-to-local-maven-repo-when-using-gradle-and-spring-boot
+install {
+    repositories.mavenInstaller {
+        pom.project {
+            parent {
+                groupId 'org.springframework.boot'
+                artifactId 'spring-boot-starter-parent'
+                version "${springBootVersion}"
+            }
+        }
+    }
+}
+
+task stage {}
+
+run {
+    systemProperties = System.properties
+}
+
+stage.dependsOn(bootRepackage)

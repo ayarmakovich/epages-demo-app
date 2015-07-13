@@ -1,0 +1,689 @@
+{
+  "page": 1,
+  "items": [
+    {
+      "availabilityText": "",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40401/be_40401_blue_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40401/be_40401_blue_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40401/be_40401_blue.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40401/be_40401_blue_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40401/be_40401_blue_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 199.95,
+          "formatted": "199.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "199.95",
+          "formatted": "199.95 €"
+        }
+      },
+      "name": "Berghaus Paclite Jacket - Men",
+      "productId": "54D4FF99-11D2-422F-E3A8-7F000101D5F3",
+      "description": "Weatherproof and compact. Ultra light.<br />Material: weatherproof breathable Gore-Tex Paclite. Outer material: 100% Ripstop nylon. Reglan sleeves fit perfectly, because the shoulder is seamlessly connected to the arms. 380 g/L.",
+      "forSale": false,
+      "shippingMethodsRestrictedTo": null,
+      "availability": null,
+      "specialOffer": false,
+      "shortDescription": "Weatherproof. Small pack size. Ultra light.",
+      "deliveryWeight": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF99-11D2-422F-E3A8-7F000101D5F3"
+        },
+        {
+          "rel": "variations",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF99-11D2-422F-E3A8-7F000101D5F3/variations"
+        }
+      ]
+    },
+    {
+      "availabilityText": "",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40402/be_40402_red_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40402/be_40402_red_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40402/be_40402_red.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40402/be_40402_red_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/be_40402/be_40402_red_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 199.95,
+          "formatted": "199.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "199.95",
+          "formatted": "199.95 €"
+        }
+      },
+      "name": "Berghaus Paclite Jacket - Women",
+      "productId": "54D4FF9A-58F3-9BBE-EDFB-7F000101D559",
+      "description": "Weatherproof and compact. Ultra light.<br />Material: weatherproof breathable Gore-Tex Paclite. Outer material: 100% Ripstop nylon. Reglan sleeves fit perfectly, because the shoulder is seamlessly connected to the arms. 380 g/L.",
+      "forSale": false,
+      "shippingMethodsRestrictedTo": null,
+      "availability": null,
+      "specialOffer": false,
+      "shortDescription": "Weatherproof. Small pack size. Ultra light.",
+      "deliveryWeight": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF9A-58F3-9BBE-EDFB-7F000101D559"
+        },
+        {
+          "rel": "variations",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF9A-58F3-9BBE-EDFB-7F000101D559/variations"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0100504001/cg_0100504001_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0100504001/cg_0100504001_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0100504001/cg_0100504001.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0100504001/cg_0100504001_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0100504001/cg_0100504001_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 22.95,
+          "formatted": "22.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "22.95",
+          "formatted": "22.95 €"
+        }
+      },
+      "name": "Campingaz Twister 270",
+      "productId": "54D4FF98-4910-4527-E9C7-7F000101D567",
+      "description": "A great gas cooker with bayonet connector (easy-clip) and a precise regulation valve. For Camping AZ valve cartridges CV 270 and 470 (can be removed for transport). Transport dimensions: Approx. 11 x 8,5 x 5,5 cm. 220 g.",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": null,
+      "deliveryWeight": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF98-4910-4527-E9C7-7F000101D567"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101004270/cg_0101004270_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101004270/cg_0101004270_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101004270/cg_0101004270.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101004270/cg_0101004270_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101004270/cg_0101004270_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": {
+          "formatted": "100 g = 1.72 €",
+          "refPrice": {
+            "currency": "EUR",
+            "taxType": "GROSS",
+            "amount": "1.72",
+            "formatted": "1.72 €"
+          },
+          "quantity": {
+            "unit": "piece(s)",
+            "amount": 1
+          },
+          "refQuantity": {
+            "unit": "g",
+            "amount": "100"
+          }
+        },
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 3.95,
+          "formatted": "3.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "3.95",
+          "formatted": "3.95 €"
+        }
+      },
+      "name": "Camping AZ CV270 valve gas canister",
+      "productId": "54D4FF98-1A76-6279-D86D-7F000101D56F",
+      "description": "The butane/propane mix is better for cold temperatures than only butane. With the Camping AZ connector system. 230 g gas. 11 cm diameter; 380 g.",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": null,
+      "deliveryWeight": {
+        "unit": "g",
+        "amount": 380
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF98-1A76-6279-D86D-7F000101D56F"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101104470/cg_0101104470_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101104470/cg_0101104470_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101104470/cg_0101104470.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101104470/cg_0101104470_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/cg_0101104470/cg_0101104470_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": {
+          "formatted": "100 g = 1.77 €",
+          "refPrice": {
+            "currency": "EUR",
+            "taxType": "GROSS",
+            "amount": "1.77",
+            "formatted": "1.77 €"
+          },
+          "quantity": {
+            "unit": "piece(s)",
+            "amount": 1
+          },
+          "refQuantity": {
+            "unit": "g",
+            "amount": "100"
+          }
+        },
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 7.95,
+          "formatted": "7.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "7.95",
+          "formatted": "7.95 €"
+        }
+      },
+      "name": "Camping AZ CV470 valve Gas canister",
+      "productId": "54D4FF98-1317-6D65-2AEE-7F000101D5B1",
+      "description": "The butane/propane mix is better for cold temperatures than only butane. 450 g gas. 11 cm diameter; 645 g.",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": null,
+      "deliveryWeight": {
+        "unit": "g",
+        "amount": 645
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF98-1317-6D65-2AEE-7F000101D5B1"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3201212002/de_3201212002_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3201212002/de_3201212002_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3201212002/de_3201212002.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3201212002/de_3201212002_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3201212002/de_3201212002_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 74.95,
+          "formatted": "74.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "74.95",
+          "formatted": "74.95 €"
+        }
+      },
+      "name": "Deuter Hydro 2.0",
+      "productId": "54D4FF9C-DE20-0A58-797C-7F000101D555",
+      "description": "New for 2007. A small drinking system pack with back cooling. Because the backpack stands out from your back, air can circulate and cool you. A shoulder padding system and belt keep the weight on your hips where it belongs. Total volume: 4 litres. Reflectors. 870 g. Colour: orange granite.",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": "New for 2007. With drinking system.",
+      "deliveryWeight": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF9C-DE20-0A58-797C-7F000101D555"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3203104010/de_3203104010_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3203104010/de_3203104010_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3203104010/de_3203104010.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3203104010/de_3203104010_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3203104010/de_3203104010_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "119.95",
+          "formatted": "119.95 €"
+        },
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 99.95,
+          "formatted": "99.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "99.95",
+          "formatted": "99.95 €"
+        }
+      },
+      "name": "Deuter Kangaroo",
+      "productId": "54D4FF9C-C3DB-4F13-2632-7F000101D5FF",
+      "description": "This 24-litre backpack transforms instantly into a child-carrying solution to give the little one a break on long hikes. Useful for short distances. When the legs are ready to walk again, it's back to the path.<br /><br />",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": "Ingenious! Quickly transforms into a child carrier.",
+      "deliveryWeight": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF9C-C3DB-4F13-2632-7F000101D5FF"
+        },
+        {
+          "rel": "slideshow",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF9C-C3DB-4F13-2632-7F000101D5FF/slideshow"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3206199010/de_3206199010_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3206199010/de_3206199010_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3206199010/de_3206199010.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3206199010/de_3206199010_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/de_3206199010/de_3206199010_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 26.95,
+          "formatted": "26.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "26.95",
+          "formatted": "26.95 €"
+        }
+      },
+      "name": "Deuter Teddy Bear",
+      "productId": "54D4FF9C-0DBA-D617-E030-7F000101D583",
+      "description": "A child's day pack with a teddy bear. Material: Deuter Polytex; robust, and easy-to-clean. The top, with two super-zippers is easy for small children to use. 1 main section, 1 smaller section, 2 side pockets, one of which contains a bear. Chest belt. Volume: 7 1/2 litres. 345 g, including bear.",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": "With teddy!",
+      "deliveryWeight": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF9C-0DBA-D617-E030-7F000101D583"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock<br />Delivery period: 5 working days",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/eg_1000111010/eg_1000111010_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/eg_1000111010/eg_1000111010_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/eg_1000111010/eg_1000111010.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/eg_1000111010/eg_1000111010_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/eg_1000111010/eg_1000111010_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "piece(s)",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 339.95,
+          "formatted": "339.95 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "339.95",
+          "formatted": "339.95 €"
+        }
+      },
+      "name": "Eureka El Capitan IV",
+      "productId": "54D4FF99-857A-BB70-A97D-7F000101D5A0",
+      "description": "Dome tent for 4 people. 2 doors and well-shaped walls create effective space usage possibilities to make the stay comfortable. <br /><br />Contents: 16 tent pegs, ropes.",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": "Dome tent for 4 people. 2 doors",
+      "deliveryWeight": {
+        "unit": "kg",
+        "amount": 4.89
+      },
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF99-857A-BB70-A97D-7F000101D5A0"
+        },
+        {
+          "rel": "slideshow",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF99-857A-BB70-A97D-7F000101D5A0/slideshow"
+        }
+      ]
+    },
+    {
+      "availabilityText": "In stock",
+      "images": [
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/er_7142303001/er_7142303001_h.jpg",
+          "classifier": "HotDeal"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/er_7142303001/er_7142303001_m.jpg",
+          "classifier": "Medium"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/er_7142303001/er_7142303001.jpg",
+          "classifier": "Large"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/er_7142303001/er_7142303001_s.jpg",
+          "classifier": "Small"
+        },
+        {
+          "url": "http://remotehost/WebRoot/Store/Shops/DemoShop/Products/er_7142303001/er_7142303001_xs.jpg",
+          "classifier": "Thumbnail"
+        }
+      ],
+      "priceInfo": {
+        "ecoParticipationPrice": null,
+        "depositPrice": null,
+        "basePrice": null,
+        "quantity": {
+          "unit": "m",
+          "amount": 1
+        },
+        "manufacturerPrice": null,
+        "priceWithDeposits": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": 1.45,
+          "formatted": "1.45 €"
+        },
+        "price": {
+          "currency": "EUR",
+          "taxType": "GROSS",
+          "amount": "1.45",
+          "formatted": "1.45 €"
+        }
+      },
+      "name": "Edelrid Black Bear Rope",
+      "productId": "54D4FF98-B3C8-3B61-3AC1-7F000101D586",
+      "description": "<b>New in 2007.</b>Strong simple rope with a great price/performance ratio.<br />Diameter: 10,3 mm<br />Elongation: 3%<br />Impact Force: 9,3 kN<br />Number of falls: 9<br />No coating slippage<br />Weight: 3 g/m<br />Length: 8 Metres<br />Colour: red/yellow<br /><i>Maximum 66 m continuous length available.</i>",
+      "forSale": true,
+      "shippingMethodsRestrictedTo": null,
+      "availability": "OnStock",
+      "specialOffer": false,
+      "shortDescription": "A strong and simple rope for a good price/performance ratio.",
+      "deliveryWeight": null,
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://remotehost/epages/DemoShop.rest/api/products/54D4FF98-B3C8-3B61-3AC1-7F000101D586"
+        }
+      ]
+    }
+  ],
+  "resultsPerPage": 10,
+  "results": 22
+}

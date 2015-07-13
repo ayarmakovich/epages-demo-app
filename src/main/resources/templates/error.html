@@ -1,0 +1,27 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments :: head"></head>
+<body role="document">
+<nav th:replace="fragments :: nav"></nav>
+
+<div class="container theme-showcase" role="main">
+
+    <div th:fragment="title" class="jumbotron">
+        <h2>Sad Kitten :-(</h2>
+
+        <div  th:if="${exception} or (${message} and ${message.length() != 0})">
+            <h3>Cause:</h3>
+            <div th:if="${exception}" th:text="${exception}">exception...</div>
+            <div th:if="${message} and ${message.length() != 0}" th:text="${message}">message ...</div>
+        </div>
+
+        <div class="text-center">
+            <img src="/images/sad-kitten.jpg"/>
+        </div>
+    </div>
+</div>
+
+<div th:replace="fragments :: footer"></div>
+</body>
+</html>

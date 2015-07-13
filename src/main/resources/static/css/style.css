@@ -1,0 +1,133 @@
+/* ==========================================================================
+   1. General
+   ========================================================================== */
+/* Adjust body for sticky navigation */
+body {
+	padding-top: 50px;
+	background-color: #efefef;
+}
+
+/* ==========================================================================
+   2. Navigation
+   ========================================================================== */
+.App-Nav {
+	background-image: none;
+	background-color: #2196f3;
+	border: none;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+.App-Nav .navbar-brand {
+	text-shadow: none;
+	color: #fff;
+}
+
+.App-Nav .navbar-nav > li > a {
+	text-shadow: none;
+	color: #fff;
+}
+
+.App-Nav .navbar-nav > .active > a,
+.App-Nav .navbar-nav > li > a:hover,
+.App-Nav .navbar-nav > .active > a:hover,
+.App-Nav .navbar-nav > li > a:focus,
+.App-Nav .navbar-nav > .active > a:focus   {
+	background-image: none;
+	background-color: #1976d2;
+	box-shadow: none;
+}
+
+
+/* ==========================================================================
+   3. Title
+   ========================================================================== */
+.App-Title {
+	background-color: #fff;
+}
+
+/* ==========================================================================
+   4. Product Grid
+   ========================================================================== */
+.Product-List {
+	margin-top: 15px;
+}
+
+.Product-List > li {
+	margin-bottom: 30px;
+}
+.Product-Card {
+	padding: 5px 30px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.Product-Image-Container {
+	text-align: center;
+}
+
+.Product-Image {
+	max-width: 400px;
+	width: 100%;
+}
+
+.Product-Name {
+	max-width: 175px;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1.4;
+}
+
+.Product-Price {
+	position: relative;
+	top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #a5d05e;
+}
+
+
+/* ==========================================================================
+   5. Responsive
+   ========================================================================== */
+@media (max-width: 1200px) {
+	.Product-Name {
+		max-width: 290px;
+		font-size: 16px;
+	}
+	.Product-Price {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 992px) {
+	.Product-Name {
+		max-width: 200px;
+	}
+	.Product-Price {
+		top: 7px;
+	}
+}
+
+@media (max-width: 768px) {
+	.Product-Name {
+		max-width: 300px;
+	}
+}
+
+@media (max-width: 500px) {
+	.Product-Card {
+		text-align: center;
+	}
+	.Product-Name {
+		float: none !important;
+		max-width: 100%;
+	}
+	.Product-Price {
+		float: none !important;
+		display: block;
+		margin-bottom: 15px;
+	}
+}

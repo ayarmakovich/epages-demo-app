@@ -1,0 +1,33 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+
+<html xmlns:th="http://www.thymeleaf.org"
+  xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments :: head"></head>
+<body role="document">
+  <nav th:replace="fragments :: nav"></nav>
+
+  <div class="theme-showcase" role="main">
+    <div th:replace="fragments :: title"></div>
+
+    <!-- Products -->
+    <div class="container">
+      <ul class="row list-unstyled Product-List">
+        <li class="col-sm-6 col-md-6 col-lg-4" th:each="product : ${pager.items}">
+          <div class="Product-Card">
+            <div class="Product-Image-Container" th:each="image : ${product.images}">
+              <img class="img-responsive Product-Image" th:if="${image.classifier == 'Medium'}" th:src="${image.url}" th:alt="${product.name}" />
+            </div>
+            <div class="clearfix">
+              <h4 class="pull-left Product-Name" th:text="${product.name}">Product name</h4>
+              <span class="pull-right Product-Price" th:if="${product.priceInfo.price}" th:text="${product.priceInfo.price.formatted}">12,34 €</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div th:replace="fragments :: footer"></div>
+</body>
+</html>
